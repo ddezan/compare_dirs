@@ -6,7 +6,7 @@ Ideal para **backups**, **sincronizações manuais** e **verificações de integ
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Compara diretórios usando **hash SHA-256** (evita falsos positivos de modificação por datas diferentes).  
 - **Suporte a caminhos longos** no Windows (`\\?\\` prefix).  
@@ -18,7 +18,7 @@ Ideal para **backups**, **sincronizações manuais** e **verificações de integ
 
 ---
 
-## 🧮 Requisitos
+## Requisitos
 
 - Python **3.8+**
 - Pacotes:
@@ -28,7 +28,7 @@ Ideal para **backups**, **sincronizações manuais** e **verificações de integ
 
 ---
 
-## 🚀 Uso
+## Uso
 
 ### 1. Executar o script
 
@@ -50,7 +50,7 @@ python compare_dirs.py "C:\Backup\Mestre" "E:\Pendrive" -r resultado.json
 
 ---
 
-## 📊 Exemplo de saída
+## Exemplo de saída
 
 Na tela (e no arquivo de log):
 
@@ -75,7 +75,7 @@ Hashing Pendrive: 100%|██████████████████| 4
 
 ---
 
-## 🗂️ Estrutura de saída
+## Estrutura de saída
 
 O arquivo JSON (`--report`) contém:
 
@@ -90,14 +90,14 @@ O arquivo JSON (`--report`) contém:
 
 ---
 
-## 🧵 Logs
+## Logs
 
 - Todos os logs são salvos automaticamente no arquivo `compare_dirs.log`, localizado no mesmo diretório do script.  
 - Os logs incluem mensagens `INFO`, `WARNING` e `ERROR` geradas durante o processo.
 
 ---
 
-## 💡 Dicas de uso
+## Dicas de uso
 
 - Execute com `--verbose` para detalhes completos (útil na primeira execução).  
 - Utilize o cache padrão para evitar reprocessar arquivos inalterados.  
@@ -106,7 +106,7 @@ O arquivo JSON (`--report`) contém:
 
 ---
 
-## 🤪 Exemplo prático
+## Exemplo prático
 
 Comparar o conteúdo do computador com o pendrive e gerar relatório detalhado:
 
@@ -116,15 +116,9 @@ python compare_dirs.py "D:\Projetos" "F:\BackupPendrive" --verbose -r comparativ
 
 ---
 
-## 📜 Licença
-
-Este projeto é distribuído sob a licença **MIT**, permitindo uso, modificação e distribuição livre, desde que mantidos os créditos originais.
-
----
-
-## 👨‍🔧 Autor
+## Autor
 
 **Daniel Dezan Lopes da Silva**  
 🕊️ Projeto criado para facilitar comparações precisas de backup entre dispositivos.
-
+- Com auxílio do Chat GPT
 ---
