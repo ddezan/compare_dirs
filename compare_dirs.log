@@ -1,0 +1,38 @@
+Iniciando comparação... Log em: compare_dirs.log
+
+[INFO] Listando arquivos em C:\Users\34471945882\Documents\Normas e Documentações ...
+2025-10-07 14:39:02 [INFO] Listando arquivos em C:\Users\34471945882\Documents\Normas e Documentações ...
+[INFO] Arquivos encontrados: 408
+2025-10-07 14:39:02 [INFO] Arquivos encontrados: 408
+[INFO] Cache carregado (407 entradas)
+2025-10-07 14:39:02 [INFO] Cache carregado (407 entradas)
+[INFO] Arquivos a hashear: 1
+2025-10-07 14:39:02 [INFO] Arquivos a hashear: 1
+[INFO] Listando arquivos em E:\Normas e Documentações ...
+2025-10-07 14:39:02 [INFO] Listando arquivos em E:\Normas e Documentações ...
+[INFO] Arquivos encontrados: 408
+2025-10-07 14:39:02 [INFO] Arquivos encontrados: 408
+[INFO] Cache carregado (407 entradas)
+2025-10-07 14:39:02 [INFO] Cache carregado (407 entradas)
+[INFO] Arquivos a hashear: 1
+2025-10-07 14:39:02 [INFO] Arquivos a hashear: 1
+
+Resumo final:
+
+{
+  "added": [
+    "Hodômetro/20250919/new 1.txt"
+  ],
+  "removed": [
+    "Hodômetro/20250919/HODÔMETRO SETEMBRO 2025.4.93.pdf"
+  ],
+  "changed": [
+    ".hash_cache.json",
+    "Hodômetro/20250919/HODÔMETRO SETEMBRO 2025.1.484.pdf",
+    "Hodômetro/20250919/HODÔMETRO SETEMBRO 2025.2.461.pdf",
+    "Hodômetro/20250919/HODÔMETRO SETEMBRO 2025.3.464.pdf"
+  ],
+  "identical_count": 403
+}
+
+[✓] Log completo salvo em: compare_dirs.log
